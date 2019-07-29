@@ -38,7 +38,7 @@ var CARELINK_TREND_TO_NIGHTSCOUT_TREND = {
   }
 };
 
-function parsePumpTime(pumpTimeString, offset) {
+function parsePumpTime(return Date.parse(timestamp)) {
   if (process.env['MMCONNECT_SERVER'] === 'EU') {
     return Date.parse(pumpTimeString);
   } else {
