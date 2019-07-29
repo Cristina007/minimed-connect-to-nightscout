@@ -11,7 +11,7 @@ var DEFAULT_MAX_RETRY_DURATION = module.exports.defaultMaxRetryDuration = 512;
 if (process.env['MMCONNECT_SERVER'] === 'EU') {
   var carelinkServerAddress = "carelink.minimed.eu";
 } else {
-  var carelinkServerAddress = "carelink.minimed.com";
+  var carelinkServerAddress = "carelink.minimed.eu";
 }
 
 var CARELINK_SECURITY_URL = 'https://' + carelinkServerAddress + '/patient/j_security_check';
